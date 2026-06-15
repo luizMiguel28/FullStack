@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Somente um site informativo para mostrar a importância do HTML para a construção de páginas web." />
+  <meta name="keywords" content="HTML, site, página web, desenvolvimento web" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trade Point</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./src/css/style.css" />
+
+  <style>
+    body {
+     background-image: url('https://images.unsplash.com/photo-1780729995718-3d0b6506d2ce?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+     background-size: 100% 200%;
+  }
+  </style>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <div class="container">
+      <figure>
+        <a href="./index.html"><img height="150" width="150" src="./assets/img/logo.png" alt="Logo do site" /></a>
+        <figcaption>Logo do site</figcaption>
+      </figure>
+      <nav class="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./view/sobre.html">Sobre</a></li>
+          <li><a href="./view/contato.html">Contato</a></li>
+          <li><a href="./view/servicos.html">Serviços</a></li>
+          <li><a href="./view/galeria.html">Galeria</a></li>
+        </ul>
+      </nav>
+      <section class="title">
+        <h1>TradePoint - Cursos</h1>
+      </section>
+    </div>
+  </header>
+
+  <main id="principal">
+    <div class="container">
+      <figure class="banner">
+        <img src="./assets/img/banner.png" alt="Banner TradePoint" width="100%" />
+        <figcaption>
+          Imagem gerada por
+          <a href="https://gemini.google.com" target="_blank">
+            Gemini (Google AI)
+          </a>
+        </figcaption>
+      </figure>
+      <section class="cards-highlight">
+        <article class="card">
+          <a href="./view/playstation.html">
+            <img src="./assets/img/img-card-01.jpg" alt="Playstation" style="width:100
+px;height:150px;">
+          </a>
+          <h1 style="font-family:exoextrabold;"">
+          <h2 style="color: rgb(13, 96, 23);">Playstation</h2>
+          <p style="color: rgb(13, 96, 23);">Consoles e Acessórios</p> </h1>
+        </article>
+        <article class="card">
+          <a href="./view/nintendo.html">
+            <img src="./assets/img/img-card-02.jpg" alt="Nintendo" style="width:100
+px;height:150px;">
+          </a>
+          <h2 style="color: rgb(13, 96, 23);">Nintendo</h2>
+          <p style="color: rgb(13, 96, 23);">Consoles e Acessórios</p>
+        </article>
+        <article class="card">
+          <a href="./view/xbox.html">
+            <img src="./assets/img/img-card-03.jpg" alt="Xbox" style="width:100
+px;height:150px;">
+          </a>
+          <h2 style="color: rgb(13, 96, 23);">Xbox</h2>
+          <p style="color: rgb(13, 96, 23);">Consoles e Acessórios</p>
+        </article>
+      </section>
+
+      <section class="table-main">
+        <table width="100%" border="1">
+          <thead>
+            <tr>
+              <th>Plataforma</th>
+              <th>Preços</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Xbox</td>
+              <td>R$500-5000</td>
+            </tr>
+            <tr>
+              <td>Playstation</td>
+              <td>R$1000-6000</td>
+            </tr>
+            <tr>
+              <td>Nintendo</td>
+              <td>1500-3000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+
+  <!-- Colocar id no footer -->
+  <footer id="rodape">
+    <div class="container">
+      <p>&copy; 2026 TradePoint - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

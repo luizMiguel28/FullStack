@@ -1,0 +1,83 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo', Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main#principal, header#cabecalho, footer#rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header#cabecalho div.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+header#cabecalho figure {
+  display: flex;
+  align-items: center;
+}
+
+header#cabecalho figure img {
+  /* width: 80px;
+  height: auto; */
+  object-fit: contain;
+}
+
+header#cabecalho figure figcaption {
+  display: none;
+}
+
+/* Itens do Menu */
+nav.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* nav.menu ul li a  */
+/* nav.menu ul li a:hover */
+
+section.title {
+  display: none;
+}
+
+div.container {
+  width: 80%;
+}
+
+section.cards-highlight {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 0;
+}
+
+section.cards-highlight article.card img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer#rodape {
+  text-align: center;
+  padding: 1rem 0;
+}
