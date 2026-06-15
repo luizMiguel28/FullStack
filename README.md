@@ -7,3 +7,8 @@ Projeto completo da turma de FullStack.
 
 - [@luizMiguel28](https://github.com/luizMiguel28/FullStack)
 
+
+## Description
+- Neste repositório ensino tudo sobre fullstack
+ 
+
