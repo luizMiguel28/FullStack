@@ -1,7 +1,7 @@
 
 # FullStack Segunda 
 
-Projeto completo da turma de FullStack
+Projeto completo da turma de FullStack.
 
 ## Authors
 
